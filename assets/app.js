@@ -11,12 +11,20 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+let img_src = ['assets/1.jpg', 'assets/image1.png', 'assets/image2.png'];
+
+let image_type = [];
+for(var i=0; i<img_src.length; i++)
+{
+  image_type.push("image"+i);
+}
+console.log(image_type);
 particlesJS('particles-js',
   
   {
     "particles": {
       "number": {
-        "value": 6,
+        "value": img_src.length,
         "density": {
           "enable": true,
           "value_area": 800
@@ -26,7 +34,7 @@ particlesJS('particles-js',
         "value": "#5affd4"
       },
       "shape": {
-        "type": ["image", "image2" ],
+        "type":  image_type ,
         "stroke": {
           "width": 0,
           "color": "#000"

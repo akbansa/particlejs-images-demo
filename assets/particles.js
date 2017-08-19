@@ -489,22 +489,8 @@ var pJS = function(tag_id, params){
       //   }
 
       // break;
-      
-      case 'image':
 
-        if(pJS.tmp.img_type == 'svg'){
-          var img_obj = p.img.obj;
-        }else{
-          var img_obj = pJS.tmp.img_obj;
-        }
-        
-        if(img_obj){
-          draw();
-        }
-
-      break;
-
-      case 'image2':
+      case 'image0':
 
         if(pJS.tmp.img_type == 'svg'){
           var img_obj = p.img.obj;
@@ -512,12 +498,45 @@ var pJS = function(tag_id, params){
           var img_obj = pJS.tmp.img_obj;
         }
         var element = document.createElement('img');
-        element.src = 'assets/image2.svg';
+        element.src = img_src[0];
         img_obj = element;
-        
         if(img_obj){
           draw();
         }
+
+      break;
+
+      case 'image1':
+
+          if(pJS.tmp.img_type == 'svg'){
+              var img_obj = p.img.obj;
+          }else{
+              var img_obj = pJS.tmp.img_obj;
+          }
+          var element = document.createElement('img');
+          element.src = img_src[1];
+          img_obj = element;
+          if(img_obj){
+              draw();
+          }
+
+      break;
+
+      case 'image2':
+
+          if(pJS.tmp.img_type == 'svg'){
+              var img_obj = p.img.obj;
+          }else{
+              var img_obj = pJS.tmp.img_obj;
+          }
+          var element = document.createElement('img');
+          element.src = img_src[2];
+          img_obj = element;
+          if(img_obj){
+              draw();
+          }
+
+      break;
 
     }
 

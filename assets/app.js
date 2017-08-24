@@ -18,7 +18,7 @@ for(var i=0; i<img_src.length; i++)
 {
   image_type.push("image"+i);
 }
-console.log(image_type);
+
 particlesJS('particles-js',
   
   {

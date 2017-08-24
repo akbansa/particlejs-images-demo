@@ -27,7 +27,7 @@ particlesJS('particles-js',
         "value": img_src.length,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 500
         }
       },
       "color": {
@@ -37,13 +37,9 @@ particlesJS('particles-js',
         "type":  image_type ,
         "stroke": {
           "width": 0,
-          "color": "#000"
         },
         "polygon": {
           "nb_sides": 4
-        },
-        "image": {
-          "src": "assets/image1.svg"
         }
       },
       "opacity": {
@@ -75,7 +71,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 8,
+        "speed": 4,
         "direction": "none",
         "random": false,
         "straight": false,

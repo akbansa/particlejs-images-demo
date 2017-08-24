@@ -1,40 +1,30 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
+// Include images
+let img_src = ['assets/images/001-interface.png', 'assets/images/002-share.png', 'assets//images/003-key.png','assets/images/004-front.png','assets/images/005-reception.png','assets/images/006-bed.png','assets/images/007-hotel.png','assets/images/008-room.png','assets/images/009-like.png'];
 
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
-let img_src = ['assets/1.jpg', 'assets/image1.png', 'assets/image2.png'];
-
+// Name images included
 let image_type = [];
 for(var i=0; i<img_src.length; i++)
 {
   image_type.push("image"+i);
 }
 
+// Configure particles-js
 particlesJS('particles-js',
   
   {
     "particles": {
       "number": {
-        "value": img_src.length,
+        "value": img_src.length, // No of images
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 500 // Specify area (Lesser is greater density)
         }
       },
       "color": {
         "value": "#5affd4"
       },
       "shape": {
-        "type":  image_type ,
+        "type":  image_type, // Add images to particle-js
         "stroke": {
           "width": 0,
         },
@@ -71,7 +61,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 4,   // Speed of particle motion
         "direction": "none",
         "random": false,
         "straight": false,

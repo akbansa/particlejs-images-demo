@@ -1,14 +1,6 @@
 /* Custom styling */
 
-.absolute-center {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
+/* Gradient backgroud */
 .bg-blue-gradient {
     color: white;
     background: #a5fffc;
@@ -19,11 +11,6 @@
     background: -ms-linear-gradient(left, #a5fffc 0%, #36ccc2 100%);
     background: linear-gradient(to right, #a5fffc 0%, #36ccc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5fffc', endColorstr='#36ccc2', GradientType=1);
-}
-
-#particles-js {
-    width: 960px;
-    height: 360px;
 }
 
 

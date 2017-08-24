@@ -423,6 +423,7 @@ var pJS = function (tag_id, params) {
 
     var p = this;
 
+    // Draw the image in the canvas
     function draw() {
       pJS.canvas.ctx.drawImage(
         img_obj,
@@ -432,6 +433,8 @@ var pJS = function (tag_id, params) {
         radius * 2 / p.img.ratio
       );
     }
+
+    pJS.canvas.ctx.globalAlpha = p.opacity; // Set transperancy of icon
 
     if (p.radius_bubble != undefined) {
       var radius = p.radius_bubble;
@@ -492,7 +495,7 @@ var pJS = function (tag_id, params) {
         );
         break;
 
-
+      // Get image attrs and add to canvas
       case 'image':
         var no = Number(p.shape.substr(5, 6));
         if (pJS.tmp.img_type == 'svg') {

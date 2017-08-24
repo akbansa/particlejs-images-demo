@@ -1,5 +1,5 @@
 // Include images
-let img_src = ['assets/images/001-interface.png', 'assets/images/002-share.png', 'assets//images/003-key.png','assets/images/004-front.png','assets/images/005-reception.png','assets/images/006-bed.png','assets/images/007-hotel.png','assets/images/008-room.png','assets/images/009-like.png'];
+let img_src = ['assets/images/001-interface.png', 'assets/images/002-share.png', 'assets/images/003-key.png','assets/images/004-front.png','assets/images/005-reception.png','assets/images/006-bed.png','assets/images/007-hotel.png','assets/images/008-room.png','assets/images/009-like.png'];
 
 // Name images included
 let image_type = [];

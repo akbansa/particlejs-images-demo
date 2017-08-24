@@ -33,7 +33,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 1,
+        "value": 0.3, // Adjust opactiy
         "random": false,
         "anim": {
           "enable": false,
@@ -43,7 +43,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 45,
+        "value": 32, // Adjust the image size
         "random": false,
         "anim": {
           "enable": false,
@@ -61,7 +61,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 4,   // Speed of particle motion
+        "speed": 2,   // Speed of particle motion
         "direction": "none",
         "random": false,
         "straight": false,

@@ -2,7 +2,7 @@
 A modification of particles.js to use custom icon images are particles.
 
 ### Usage
-Simply update the array of image source in app.js and you will see images moving around randomly.
+Include the particles-img.js file in your project, and add following code.
 
 **index.html**
 ```html
@@ -11,6 +11,7 @@ Simply update the array of image source in app.js and you will see images moving
 <script src="particles.js"></script>
 ```
 
+Specify image sources in img_src and configure particles.json to tweak settings.
 **app.js**
 ```javascript
 /*Image source array*/

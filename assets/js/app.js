@@ -60,7 +60,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 2,   // Speed of particle motion
+        "speed": 1,   // Speed of particle motion
         "direction": "none",
         "random": false,
         "straight": false,

@@ -1,6 +1,8 @@
 # particles.js
 
 ![Giphy](https://media.giphy.com/media/xT9IgwJXQDlciFPExG/giphy.gif)
+
+
 A modification of particles.js to use custom icon images are particles.
 
 ### Usage

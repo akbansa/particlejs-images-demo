@@ -3,10 +3,10 @@
 ![Giphy](https://media.giphy.com/media/xT9IgwJXQDlciFPExG/giphy.gif)
 
 
-A modification of particles.js to use custom icon images are particles.
+A modification of particles.js to use custom icon images as particles.
 
 ### Usage
-Include the particles-img.js file in your project, and add following code.
+Include the particles-img.js file in your project, and add the following code.
 
 **index.html**
 ```html

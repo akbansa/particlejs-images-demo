@@ -3,14 +3,14 @@
 /* Gradient backgroud */
 .bg-blue-gradient {
     color: white;
-    background: #a5fffc;
-    background: -moz-linear-gradient(left, #a5fffc 0%, #36ccc2 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #a5fffc), color-stop(100%, #36ccc2));
-    background: -webkit-linear-gradient(left, #a5fffc 0%, #36ccc2 100%);
-    background: -o-linear-gradient(left, #a5fffc 0%, #36ccc2 100%);
-    background: -ms-linear-gradient(left, #a5fffc 0%, #36ccc2 100%);
-    background: linear-gradient(to right, #a5fffc 0%, #36ccc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5fffc', endColorstr='#36ccc2', GradientType=1);
+    background: #111111;
+    background: -moz-linear-gradient(left, #111111 0%, #131313 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #111111), color-stop(100%, #131313));
+    background: -webkit-linear-gradient(left, #111111 0%, #131313 100%);
+    background: -o-linear-gradient(left, #111111 0%, #131313 100%);
+    background: -ms-linear-gradient(left, #111111 0%, #131313 100%);
+    background: linear-gradient(to right, #111111 0%, #131313 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#131313', GradientType=1);
 }
 
 
